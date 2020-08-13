@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+{% for q in object_list %}
+<div class="jumbotron onasarea">
+<p>{{q.onas}}</p>
+</div>
+
+{% endfor %}
+
+<div class="jumbotron contactonas">
+
+    <p>+38(096) 496 88 77 Евгений </p>
+    <p>+38(063) 280 90 17 Катерина</p>
+
+</div>
+
+{% endblock %}
